@@ -31,7 +31,7 @@ if has('vim_starting')
   filetype off
   call neobundle#begin(expand('~/.vim/.bundle'))
   filetype plugin on
-  filetype indent on
+"  filetype indent on
 endif
 
 NeoBundleFetch 'Shougo/neobundle.vim.git'
@@ -60,6 +60,7 @@ set number
 set showmode
 set showmatch
 set autoindent
+set tabstop=4
 set incsearch
 set wildmenu wildmode=list:full
 set modifiable
@@ -70,7 +71,6 @@ set backspace=start,eol,indent "バックスペースでなんでも消せるよ
 set whichwrap=b,s,[,],<,>,~ "左右キーで次行頭・前行末にいけるように
 set laststatus=2
 set statusline=%f%r%h%=
-set tabstop=4
 set hlsearch
 set fileformat=unix
 if ostype == "Win"
