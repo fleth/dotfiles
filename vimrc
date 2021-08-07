@@ -87,7 +87,7 @@ match ZenkakuSpace /　/
 highlight Pmenu ctermbg=gray ctermfg=black
 highlight PmenuSel ctermbg=red ctermfg=white
 highlight PmenuSbar ctermbg=gray ctermfg=black
-
+highlight Comment ctermfg=2
 "------------------------------------
 ""phpcs
 "------------------------------------

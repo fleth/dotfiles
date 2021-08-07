@@ -3,3 +3,5 @@
 [user]
 	name = fleth
 	email = fleth@users.noreply.github.com
+[push]
+	default = simple
